@@ -24,6 +24,10 @@ andiamo avanti.
 
 ## Scaletta
 
+<hr>
+
+## Polindroma
+
 1. Creo una funzione
 1. Dentro la funzione controllo la lunghezza della stringa
 1. Creo un ciclo per la stringa
@@ -31,3 +35,14 @@ andiamo avanti.
 1. Chiedo all'utente il suo nome
 1. Richiamo la funzione
 1. Stampo in console
+<hr>
+
+## Pari o dispari
+
+1. Creo una funzione per il random
+1. Creo una funzione per i numeri pari o dispari
+1. Chiedo all'utente la scelta tra pari o dispari
+1. Chiedo all'utente un numero tra 1 e 5
+1. Sommo i due numeri
+1. Controllo se la somma sia para o dispara
+1. Dichiaro il vincitore
