@@ -6,15 +6,6 @@ function randomizer(min , max){
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-// funzione per i numeri pari e dispari
-function evenOdd(){
-    if(sum % 2 == 0) {
-        console.log("ha vinto il pari");
-    }else {
-        console.log("ha vinto il dispari");
-    }
-}
-
 // scelta utente tra pari o dispari
 const userChoice = prompt(`Pari o Dispari`);
 console.log(userChoice);
@@ -28,8 +19,28 @@ const cpuNumber = randomizer(1 , 5);
 console.log(`numero CPU:` , cpuNumber);
 
 // somma dei numeri dell'utente e CPU
-const sum = userNumber + cpuNumber;
-console.log(`il totale è:` , sum);
+const result = userNumber + cpuNumber;
+console.log(`il totale è:` , result);
 
-// controllo e dichiarazione del vincitore
-if(sum === evenOdd());
+// funzione per i numeri pari e dispari
+let winner = ``;
+function evenOdd(winner){
+    winner = `ha vinto il computer`;
+    if(result % 2 == 0) {
+        console.log(`il numero è pari`)
+        if(userChoice === `pari`){
+            winner = `hai vinto`;
+        }
+    }
+    else {
+        console.log("il numero è dispari");
+        if(userChoice === `dispari`){
+            winner = `hai vinto`;
+        }
+    }
+    return winner;
+}
+
+// dichiarazione vincitore
+console.log(evenOdd());
+
