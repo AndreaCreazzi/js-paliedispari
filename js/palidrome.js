@@ -19,7 +19,7 @@ function wordPalindrome(word) {
 }
 
 // risposta dell'utente
-const word = prompt('Enter a string: ');
+const word = prompt('Dimmi il tuo nome');
 
 // richiamo della funzione
 const result = wordPalindrome(word);
