@@ -21,3 +21,13 @@ parola inserita è palindroma
 2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora
 andiamo avanti.
 <hr>
+
+## Scaletta
+
+1. Creo una funzione
+1. Dentro la funzione controllo la lunghezza della stringa
+1. Creo un ciclo per la stringa
+1. Controllo la lettera iniziale e finale se combacino
+1. Chiedo all'utente il suo nome
+1. Richiamo la funzione
+1. Stampo in console
